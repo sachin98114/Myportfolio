@@ -1,0 +1,50 @@
+<div class="text-center mt-5 mb-5">
+
+    <div class="text-center">
+        <p>Get in Touch</p>
+        <h3>Contact Me</h3>
+    </div>
+
+    <div style="display: flex;  justify-content: center; align-items: flex-start; flex-wrap: wrap; gap: 5rem;"
+        class="mt-5 ">
+        <div class="contect-card">
+            <div class="card mt-3" style="width: 15rem; ">
+                <i class="fa fa-envelope icon" aria-hidden="true"></i>
+                <div class="card-body">
+                    <p class="card-text">Email</p>
+                    <p>Sk297947@gmail.com</p>
+                    <p (click)="openEmailChat()" class="cursor">send a Message</p>
+                </div>
+            </div>
+
+            <div class="card mt-3" style="width: 15rem; ">
+                <a ><i class='fab fa-instagram icon' ></i></a>
+                <div class="card-body">
+                    <p class="card-text">Messenger</p>
+                    <p>i_sachinyat.sck</p>
+                    <p><a style="color: aliceblue; text-decoration:none;"  class="cursor" href="https://www.instagram.com/i__sachinyat.sck">Send a Messege</a></p>
+                </div>
+            </div>
+
+            <div class="card mt-3" style="width: 15rem; ">
+                <i class='fab fa-whatsapp icon' ></i>
+                <div class="card-body ">
+                    <p class="card-text">Whatapp</p>
+                    <p>+91 7079717726</p>
+                    <p (click)="openWhatsAppChat()" class="cursor">Whatapp Me</p>
+                </div>
+            </div>
+            
+        </div>
+
+        <div style="display: flex; justify-content: first baseline;">
+            <form [formGroup]="myForm" (ngSubmit)="getdata()">
+                <input class="text mt-3" type="text" formControlName="name" placeholder="Enter your name"> <br><br>
+                <input class="text mt-3" type="email" formControlName="email" placeholder="Enter your email"> <br><br>
+                <input class="text mt-3" type="text" formControlName="text" placeholder="Enter your text"> <br><br>
+                <button type="submit" class="btn btn-primary button" [disabled]="myForm.invalid">Submit</button>
+            </form>
+        </div>
+
+    </div>
+</div>

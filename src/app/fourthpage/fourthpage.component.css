@@ -1,0 +1,42 @@
+.card-header {
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(43, 66, 66);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color:antiquewhite;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    width: 26rem;
+    background-color: rgb(42, 42, 53);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: 1px soli gray;
+}
+.card:hover{
+    background-color: rgb(27, 35, 35);
+    border: 2px solid;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.fa-check{
+    float: left;
+}
+.span{
+    margin-left: 3rem;
+}

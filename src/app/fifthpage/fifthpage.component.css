@@ -1,0 +1,29 @@
+.card {
+    width: 25rem;
+    padding: 1.5rem;
+    background-color: rgb(42, 42, 53);
+    color: aliceblue;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.card:hover{
+    background-color: rgb(27, 35, 35);
+    border: 2px solid;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.card-text{
+    font-size: 1.6rem;
+}
+button{
+    width: 20rem;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}

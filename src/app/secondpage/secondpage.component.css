@@ -1,0 +1,37 @@
+.card-img-top-rotate {
+    transform: rotate(15deg);
+}
+.card-img-top-rotate:hover {
+    transform: rotate(0deg);
+}
+
+.Experience-card {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1.2rem;
+
+}
+
+.card-icon {
+    visibility: hidden;
+}
+
+.card-body:hover {
+    background-color: rgb(27, 35, 35);
+    border: 2px solid;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.card-body:hover  .card-icon{
+    visibility: visible;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: rgb(42, 42, 53);
+    border: 1px solid gray;
+}

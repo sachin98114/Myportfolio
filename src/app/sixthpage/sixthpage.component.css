@@ -1,0 +1,41 @@
+.text {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+    width: 40vw;
+    /* background-color: #4db5ff; */
+    background-color: rgb(42, 42, 53);
+    color: aliceblue;
+
+
+}
+
+.contect-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border-radius: 2rem;
+    /* background-color: rgb(48, 48, 194); */
+    background-color: rgb(42, 42, 53);
+    color: aliceblue;
+    border: 1px solid gray;
+}
+
+.card:hover {
+    background-color: rgb(27, 35, 35);
+    border: 2px solid;
+}
+
+.button {
+    float: left;
+    background-color: rgb(42, 42, 53);
+    margin-top: 3rem;
+}
+
+.icon {
+    font-size: 36px;
+    padding: 1rem;
+    color: aliceblue;
+}

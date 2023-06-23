@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~material-icons/iconfont/material-icons.css';
+body {
+    font-family: 'Courier New', monospace;
+     color: antiquewhite;
+     background: rgb(27, 35, 35);
+
+  }
+  .button{
+    height: 3.5rem;
+    width: 10rem;
+  }
+  .cursor{
+   cursor: pointer;
+  }
