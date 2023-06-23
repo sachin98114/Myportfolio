@@ -6,10 +6,12 @@
     /* background-color: #4db5ff; */
     background-color: rgb(42, 42, 53);
     color: aliceblue;
-
-
 }
-
+@media screen and (max-width: 572px) {
+    .text {
+      width: 100%;
+    }
+  }
 .contect-card {
     display: flex;
     flex-direction: column;
