@@ -6,10 +6,12 @@
     /* background-color: #4db5ff; */
     background-color: rgb(42, 42, 53);
     color: aliceblue;
-
-
 }
-
+@media screen and (max-width: 572px) {
+    .text {
+      width: 100%;
+    }
+  }
 .contect-card {
     display: flex;
     flex-direction: column;
@@ -39,11 +41,3 @@
     padding: 1rem;
     color: aliceblue;
 }
-@media only screen and (max-width: 600px) {
-    form input {
-        width: 80vw;
-    }
-    form button{
-        width: 80vw;
-    }
-  }
